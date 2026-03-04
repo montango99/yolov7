@@ -1,0 +1,10 @@
+path: VisDrone # dataset root dir
+
+train: images/train # train images (relative to 'path') 6471 images
+val: images/validate # val images (relative to 'path') 548 images
+test: images/test # test-dev images (optional) 1610 images
+
+nc: 10
+
+# Classes
+names: ["pedestrian", "people", "bicycle", "car", "van", "truck", "tricycle", "awning-tricycle", "bus", "motor"]
